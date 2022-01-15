@@ -7,7 +7,7 @@ export default function Footer() {
             Vamos agilizar sua solução?
           </h2>
           <p className="mt-2 max-w-xl text-base text-gray-400">
-           Nós vamos adorar poder chama-lo de "Nosso Parceiro". Para agilizar o processo, preecha o formulário abaixo para entrar-mos em contato com você.
+           Nós vamos adorar poder chama-lo de Nosso Parceiro. Para agilizar o processo, preecha o formulário abaixo para entrar-mos em contato com você.
           </p>
           <form>
             <div className="sm:flex jusitfy-start mt-6">
