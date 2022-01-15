@@ -34,28 +34,14 @@ const features = [
   },
 ];
 
-const features2 = [
-  { name: "Origin", description: "Designed by Good Goods, Inc." },
-  {
-    name: "Material",
-    description:
-      "Solid walnut base with rare earth magnets and powder coated steel card cover",
-  },
-  { name: "Dimensions", description: '6.25" x 3.55" x 1.15"' },
-  { name: "Finish", description: "Hand sanded and finished with natural oil" },
-  { name: "Includes", description: "Wood card tray and 3 refill packs" },
-  {
-    name: "Considerations",
-    description:
-      "Made from natural materials. Grain and color vary with each item.",
-  },
-];
+
+
 
 export default function Main() {
   return (
     <div className="bg-white">
 
-<div className="bg-white">
+<div className="bg-white" id="solucoes">
         <div className=" py-10 px-4 grid items-center grid-cols-1 gap-y-10 gap-x-8 sm:px-6 sm:py-5 xl:max-w-max lg:px-8 lg:grid-cols-2">
           <div>
             <h2 className="text-base text-indigo-600 mb-5 font-semibold tracking-wide uppercase">
@@ -75,7 +61,7 @@ export default function Main() {
               ))}
             </dl>
           </div>
-          <div className="hidden grid grid-cols-2 grid-rows-2 gap-4 lg:grid sm:gap-6 lg:gap-8 teste">
+          <div className="hidden grid grid-cols-2 grid-rows-2 gap-4 lg:grid sm:gap-6 lg:gap-8 " id="marketplace">
             <img
               src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
               alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."

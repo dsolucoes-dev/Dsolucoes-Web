@@ -2,12 +2,13 @@ import React,{Fragment} from "react";
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon} from '@heroicons/react/outline'
 
+import Image from 'next/image'
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' }
+  { name: 'Soluções', href: '#solucoes' },
+  { name: 'Marketplace', href: '#marketplace' },
+  { name: 'Contato', href: '#' }
 ]
 
 
@@ -54,9 +55,7 @@ export function Landing(){
                     {item.name}
                   </a>
                 ))}
-                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                  Log in
-                </a>
+               
               </div>
             </nav>
           </div>
@@ -101,12 +100,6 @@ export function Landing(){
                     </a>
                   ))}
                 </div>
-                <a
-                  href="#"
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-                >
-                  Log in
-                </a>
               </div>
             </Popover.Panel>
           </Transition>
