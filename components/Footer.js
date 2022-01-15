@@ -157,10 +157,10 @@ export default function Footer() {
         </div>
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="">
+            <div className="hidden  lg:block">
               <div>
                 <img
-                  className="h-8 w-auto"
+                  className="h-8 w-auto sm: flex justify-center"
                   src={"https://i.ibb.co/crBw5Mn/logo.png"}
                   alt=""
                 />
