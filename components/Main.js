@@ -63,29 +63,29 @@ export default function Main() {
           </div>
           <div className="hidden grid grid-cols-2 grid-rows-2 gap-4 lg:grid sm:gap-6 lg:gap-8 " id="marketplace">
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+              src="https://i.ibb.co/qBK2DV8/site.png"
               alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
               className=" rounded-lg p-10 "
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
+              src="https://i.ibb.co/1TDmNZF/sistemas.png"
               alt="Top down view of walnut card tray with embedded magnets and card groove."
               className=" rounded-lg p-10"
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
+              src="https://i.ibb.co/dkNcZWW/mobile.png"
               alt="Side of walnut card tray with card groove and recessed card area."
               className=" rounded-lg p-10"
             />
             <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
+              src="https://i.ibb.co/JKBChL2/filtros.png"
               alt="Walnut card tray filled with cards and card angled in dedicated groove."
               className=" rounded-lg p-10"
             />
           </div>
         </div>
       </div>
-
+   
 
 
 
